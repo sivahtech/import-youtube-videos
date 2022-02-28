@@ -1,0 +1,1017 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Auto YouTube Importer\n"
+"POT-Creation-Date: 2021-11-24 07:41-0600\n"
+"PO-Revision-Date: 2021-11-24 07:41-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: youtube-importer.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: app/AdminMenu.php:45 templates/tools.php:21
+msgid "Settings"
+msgstr ""
+
+#: app/Helper/FeedForm.php:58
+msgid "YouTube Channel ID"
+msgstr ""
+
+#: app/Helper/FeedForm.php:75
+msgid "Post Type"
+msgstr ""
+
+#: app/Helper/FeedForm.php:87
+msgid "Post Status"
+msgstr ""
+
+#: app/Helper/FeedForm.php:91
+msgid "Publish"
+msgstr ""
+
+#: app/Helper/FeedForm.php:92
+msgid "Save as Draft"
+msgstr ""
+
+#: app/Helper/FeedForm.php:101
+msgid "Post Author"
+msgstr ""
+
+#: app/Helper/FeedForm.php:111
+msgid "Post Category (or Categories)"
+msgstr ""
+
+#: app/Helper/FeedForm.php:124
+msgid ""
+"Ongoing Import (Enable to continuously import future posts as they are "
+"released)"
+msgstr ""
+
+#: app/Helper/FeedForm.php:139
+msgid "Import Featured Images"
+msgstr ""
+
+#: app/Helper/FeedForm.php:151
+msgid "Date Limit"
+msgstr ""
+
+#: app/Helper/FeedForm.php:154
+msgid "01-01-2019"
+msgstr ""
+
+#: app/Helper/FeedForm.php:155
+msgid "Optional: only import posts after a certain date."
+msgstr ""
+
+#: app/Helper/FeedForm.php:163
+msgid "Truncate Post Content"
+msgstr ""
+
+#: app/Helper/FeedForm.php:166
+msgid ""
+"Optional: Will trim the post content when imported to the character amount "
+"below."
+msgstr ""
+
+#: app/Helper/FeedForm.php:167
+msgid "Leave empty to skip trimming, set to 0 to skip content import."
+msgstr ""
+
+#: app/Helper/FeedForm.php:175
+msgid "Append text to Post Title"
+msgstr ""
+
+#: app/Helper/FeedForm.php:178
+msgid "Example: My Channel -"
+msgstr ""
+
+#: app/Helper/Importer.php:148
+#, php-format
+msgid "Missing 'id' param for an entry, at index %s"
+msgstr ""
+
+#: app/Helper/Youtube.php:26 app/Helper/Youtube.php:32
+#, php-format
+msgid "%s - Cannot find channel name"
+msgstr ""
+
+#: app/Hooks.php:58
+msgid "Power up your site with"
+msgstr ""
+
+#: app/Hooks.php:59
+msgid "YouTube Importer Pro!"
+msgstr ""
+
+#: app/Hooks.php:60
+msgid "Upgrade and get all your videos synced continuously."
+msgstr ""
+
+#: app/PostTypes.php:27
+msgid "YouTube Imports"
+msgstr ""
+
+#: app/PostTypes.php:28 templates/tools.php:5
+msgid "YouTube Import"
+msgstr ""
+
+#: app/RestAPI/ACL.php:13 app/RestAPI/ACL.php:27 app/RestAPI/ACL.php:41
+#, php-format
+msgid "You are not allowed to %s."
+msgstr ""
+
+#: app/RestAPI/Response.php:38
+msgid "Invalid Channel ID or the API quota has been reached."
+msgstr ""
+
+#: app/RestAPI/Response.php:48
+msgid "Success! Re-synced "
+msgstr ""
+
+#: app/RestAPI/Response.php:48
+msgid " previously imported posts."
+msgstr ""
+
+#: app/RestAPI/Response.php:53
+msgid "No new posts to import - all posts already exist in WordPress!"
+msgstr ""
+
+#: app/RestAPI/Response.php:54
+msgid ""
+"If you have existing draft, private or trashed posts with the same title as "
+"your posts, delete those and run the importer again."
+msgstr ""
+
+#: app/RestAPI/Response.php:60
+msgid "Error! Your feed does not contain any items."
+msgstr ""
+
+#: app/RestAPI/Response.php:65
+msgid "Success! Imported "
+msgstr ""
+
+#: app/RestAPI/Response.php:66
+msgid " out of "
+msgstr ""
+
+#: app/RestAPI/Response.php:66
+msgid " posts"
+msgstr ""
+
+#: app/RestAPI/Response.php:67
+msgid " previously imported posts re-synced"
+msgstr ""
+
+#: app/RestAPI/Response.php:104
+msgid ""
+"This youtube is already being scheduled for import. Delete the previous "
+"schedule to create a new one."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ActionFactory.php:161
+msgid "Invalid action - must be a recurring action."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:60
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:75
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:76
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:89
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+msgid "Scheduled Actions"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:127
+msgid "About"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:129
+#, php-format
+msgid "About Action Scheduler %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:131
+msgid ""
+"Action Scheduler is a scalable, traceable job queue for background "
+"processing large sets of actions. Action Scheduler works by triggering an "
+"action hook to run at some time in the future. Scheduled actions can also be "
+"scheduled to run on a recurring schedule."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:139
+msgid "Columns"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:141
+msgid "Scheduled Action Columns"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:143
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:143
+msgid "Name of the action hook that will be triggered."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:144
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:97
+msgid "Status"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:144
+msgid "Action statuses are Pending, Complete, Canceled, Failed"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:145
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:98
+msgid "Arguments"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:145
+msgid "Optional data array passed to the action hook."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:146
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:146
+msgid "Optional action group."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:147
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:100
+msgid "Recurrence"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:147
+msgid "The action's schedule frequency."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "Scheduled"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:148
+msgid "The date/time the action is/was scheduled to run."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:149
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:102
+msgid "Log"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_AdminView.php:149
+msgid "Activity log for the action."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_DataController.php:133
+#, php-format
+msgid "Stopped the insanity for %d second"
+msgid_plural "Stopped the insanity for %d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_DataController.php:137
+msgid "Attempting to reduce used memory..."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_InvalidActionException.php:21
+#, php-format
+msgid "Action [%1$s] has an invalid schedule: %2$s"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_InvalidActionException.php:40
+#, php-format
+msgid ""
+"Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. "
+"$args = %2$s"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:122
+msgid "Claim ID"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:144
+#, php-format
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:149
+#, php-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:154
+#, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:159
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:164
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:169
+#, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:174
+#, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:201
+msgid "Now!"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:237
+#, php-format
+msgid "Every %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:243
+msgid "Non-repeating"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:341
+msgid ""
+"It appears one or more database tables were missing. Attempting to re-create "
+"the missing table(s)."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:358
+#, php-format
+msgid ""
+"Maximum simultaneous queues already in progress (%s queue). No additional "
+"queues will begin processing until the current queues are complete."
+msgid_plural ""
+"Maximum simultaneous queues already in progress (%s queues). No additional "
+"queues will begin processing until the current queues are complete."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:374
+#, php-format
+msgid ""
+"A new queue has begun processing. <a href=\"%s\">View actions in-progress "
+"&raquo;</a>"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:377
+#, php-format
+msgid "The next queue will begin processing in approximately %d seconds."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:398
+#, php-format
+msgid "Successfully executed action: %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:402
+#, php-format
+msgid "Successfully canceled action: %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:406
+#, php-format
+msgid "Successfully processed change for action: %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:412
+#, php-format
+msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:458
+#, php-format
+msgid " (%s ago)"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:461
+#, php-format
+msgid " (%s)"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_ListTable.php:610
+msgid "Search hook, args and claim ID"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_QueueRunner.php:192
+msgid "Every minute"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:103
+#, php-format
+msgid "This data will be deleted in %s."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:108
+#, php-format
+msgid ""
+"Action Scheduler has migrated data to custom tables; however, orphaned log "
+"entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn "
+"more &raquo;</a>"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:102
+msgid "Action Scheduler"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:102
+msgid "This section shows details of Action Scheduler."
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:105
+msgid "Version:"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:109
+msgid "Data store:"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:113
+msgid "Action Status"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:115
+msgid "Count"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:116
+msgid "Oldest Scheduled Date"
+msgstr ""
+
+#: lib/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:117
+msgid "Newest Scheduled Date"
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:33
+#: lib/action-scheduler/classes/WP_CLI/ProgressBar.php:47
+#, php-format
+msgid "The %s class can only be run within WP CLI."
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+msgid ""
+"There are too many concurrent batches, but the run is forced to continue."
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
+#, php-format
+msgid "Running %d action"
+msgid_plural "Running %d actions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
+msgid "The claim has been lost. Aborting current batch."
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+#, php-format
+msgid "Started processing action %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+#, php-format
+msgid "Completed processing action %1$s with hook: %2$s"
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+#, php-format
+msgid "Error processing action %1$s: %2$s"
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:100
+#, php-format
+msgid "Found %d scheduled task"
+msgid_plural "Found %d scheduled tasks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:117
+#, php-format
+msgid "%d batch executed."
+msgid_plural "%d batches executed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:136
+#, php-format
+msgid "There was an error running the action scheduler: %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:153
+#, php-format
+msgid "%d scheduled task completed."
+msgid_plural "%d scheduled tasks completed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler.php:195
+#, php-format
+msgid "%s() was called before the Action Scheduler data store was initialized"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:467
+msgid "Filter"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:567
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:672
+msgid "Search"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
+msgid "action created"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:138
+msgid "action canceled"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:82
+#, php-format
+msgid "action started via %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:84
+msgid "action started"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:92
+#, php-format
+msgid "action complete via %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
+msgid "action complete"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:102
+#, php-format
+msgid "action failed via %1$s: %2$s"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
+#, php-format
+msgid "action failed: %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
+#, php-format
+msgid "action timed out after %s seconds"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
+msgid "action reset"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:129
+#, php-format
+msgid "action ignored via %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:131
+msgid "action ignored"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:146
+#, php-format
+msgid "There was a failure fetching this action: %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:148
+msgid "There was a failure fetching this action"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:156
+#, php-format
+msgid "There was a failure scheduling the next instance of this action: %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Store.php:301
+#, php-format
+msgid ""
+"ActionScheduler_Action::$args too long. To ensure the args column can be "
+"indexed, action args should not be more than %d characters when encoded as "
+"JSON."
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Store.php:377
+msgid "Complete"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Store.php:378
+msgid "Pending"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Store.php:379
+msgid "In-progress"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Store.php:380
+msgid "Failed"
+msgstr ""
+
+#: lib/action-scheduler/classes/abstracts/ActionScheduler_Store.php:381
+msgid "Canceled"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:78
+msgid "Database error."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:86
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:35
+#: lib/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+#, php-format
+msgid "Error saving action: %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:243
+msgid "Invalid value for select or count parameter. Cannot query actions."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:444
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:535
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:567
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:777
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:819
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:421
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:432
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:459
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:752
+#, php-format
+msgid "Unidentified action %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:651
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:593
+#, php-format
+msgid "The group \"%s\" does not exist."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:665
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:573
+msgid "Unable to claim actions. Database error."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:838
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:719
+msgid "Invalid action ID. No status found."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:840
+msgid "Unknown status found for action."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:72
+msgid "Unable to save action."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:238
+msgid "Invalid schedule. Cannot save action."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:668
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:683
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:695
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:819
+#, php-format
+msgid ""
+"%s Support for strings longer than this will be removed in a future version."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:36
+msgctxt "post"
+msgid "Failed"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:38
+#, php-format
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:51
+msgctxt "post"
+msgid "In-Progress"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:53
+#, php-format
+msgid "In-Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr ""
+
+#: lib/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr ""
+
+#: lib/action-scheduler/classes/migration/ActionMigrator.php:95
+#, php-format
+msgid "Unable to remove source migrated action %s"
+msgstr ""
+
+#: lib/action-scheduler/classes/migration/Config.php:52
+msgid "Source store must be configured before running a migration"
+msgstr ""
+
+#: lib/action-scheduler/classes/migration/Config.php:74
+msgid "Source logger must be configured before running a migration"
+msgstr ""
+
+#: lib/action-scheduler/classes/migration/Config.php:96
+msgid "Destination store must be configured before running a migration"
+msgstr ""
+
+#: lib/action-scheduler/classes/migration/Config.php:118
+msgid "Destination logger must be configured before running a migration"
+msgstr ""
+
+#: lib/action-scheduler/classes/migration/Controller.php:162
+msgid ""
+"Action Scheduler migration in progress. The list of scheduled actions may be "
+"incomplete."
+msgstr ""
+
+#: lib/action-scheduler/classes/migration/Runner.php:82
+#, php-format
+msgid "Migrating %d action"
+msgid_plural "Migrating %d actions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/action-scheduler/classes/migration/Runner.php:107
+#, php-format
+msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+msgstr ""
+
+#: templates/_form-field.php:59
+msgid "Set Image"
+msgstr ""
+
+#: templates/_form-field.php:61
+msgid "Remove Image"
+msgstr ""
+
+#: templates/importer-form.php:22
+msgid "Advanced Options"
+msgstr ""
+
+#: templates/importer-form.php:34
+msgid "Update"
+msgstr ""
+
+#: templates/importer-form.php:36
+msgid "Import"
+msgstr ""
+
+#: templates/importer-form.php:41 templates/upgrade-plugin.php:3
+msgid "YouTube Importer Pro"
+msgstr ""
+
+#: templates/importer-form.php:42 templates/upgrade-plugin.php:4
+msgid "Upgrade to Pro and get additional features:"
+msgstr ""
+
+#: templates/importer-form.php:44
+msgid "Unlimited scheduled imports for multiple YouTube channels."
+msgstr ""
+
+#: templates/importer-form.php:45 templates/upgrade-plugin.php:7
+msgid "Import to any Custom Post Type or Custom Taxonomy."
+msgstr ""
+
+#: templates/importer-form.php:46 templates/upgrade-plugin.php:8
+msgid "Import video iframes to a custom field."
+msgstr ""
+
+#: templates/importer-form.php:47 templates/upgrade-plugin.php:9
+msgid "Force a re-sync on all existing posts (to update metadata)"
+msgstr ""
+
+#: templates/importer-form.php:48 templates/upgrade-plugin.php:10
+msgid "Set a global featured image to all imported posts."
+msgstr ""
+
+#: templates/importer-form.php:49 templates/upgrade-plugin.php:11
+msgid "Manual 'Sync' button to sync on demand."
+msgstr ""
+
+#: templates/importer-form.php:53 templates/tools.php:27
+#: templates/upgrade-plugin.php:15
+msgid "Upgrade"
+msgstr ""
+
+#: templates/importer-scheduled.php:9
+msgid "Scheduled imports are set for sync once every two hours."
+msgstr ""
+
+#: templates/importer-scheduled.php:15
+msgid "Channel"
+msgstr ""
+
+#: templates/importer-scheduled.php:16
+msgid "Channel ID"
+msgstr ""
+
+#: templates/importer-scheduled.php:28
+msgid "Edit Import"
+msgstr ""
+
+#: templates/importer-scheduled.php:31
+msgid "Delete Import"
+msgstr ""
+
+#: templates/settings.php:8 templates/settings.php:15
+msgid "A valid youtube API Key is required in order for this plugin to work."
+msgstr ""
+
+#: templates/settings.php:25
+msgid "API Key"
+msgstr ""
+
+#: templates/settings.php:30
+msgid "Success: API Key is Valid"
+msgstr ""
+
+#: templates/settings.php:38
+msgid "Save Settings"
+msgstr ""
+
+#: templates/tools.php:9
+msgid "Scheduled Imports"
+msgstr ""
+
+#: templates/tools.php:16
+#, php-format
+msgid "Edit Feed %s"
+msgstr ""
+
+#: templates/tools.php:41
+msgid "Import a YouTube Channel"
+msgstr ""
+
+#: templates/tools.php:44
+msgid "Powered by SecondLineThemes"
+msgstr ""
+
+#: templates/upgrade-plugin.php:6
+msgid "Unlimited scheduled imports for multiple YouTube Channels."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Auto YouTube Importer"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A simple YouTube video importer plugin with ongoing YouTube import features."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SecondLineThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://importyoutubethemes.com/"
+msgstr ""
